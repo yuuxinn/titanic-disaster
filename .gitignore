@@ -1,0 +1,30 @@
+# Data (never commit the dataset) - keep only the empty folder placeholder
+src/data/*
+!src/data/.gitkeep
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Credentials
+kaggle.json
+.env
